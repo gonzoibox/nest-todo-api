@@ -1,5 +1,5 @@
 import { Body, Controller, Delete, Get, Param, Post, Put } from '@nestjs/common';
-import { Todo } from '../entities/todo.entity';
+//import { Todo } from '../entities/todo.entity';
 import { CreateDto, UpdateDto } from './dto';
 
 @Controller('rest/todo')
