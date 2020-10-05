@@ -13,5 +13,4 @@ import { Crud, CrudController } from '@nestjsx/crud';
 @Controller('rest/todo')
 export class TodoController implements CrudController<Todo>{
   constructor(public service: TodoService) {}
-
 }

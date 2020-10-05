@@ -8,5 +8,4 @@ export class TodoService extends TypeOrmCrudService<Todo>{
   constructor(@InjectRepository(Todo) todoRepository) {
     super(todoRepository)
   }
-
 }
