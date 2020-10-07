@@ -8,12 +8,15 @@
 <body>
     <h1>Test API</h1>
     <script>
-        fetch('http://localhost:3000/rest/todo/',
+        fetch('https://todo-app-7dca6.firebaseio.com/todo.json',
         {
-            method: 'GET', // *GET, POST, PUT, DELETE, etc.
+            method: 'PUT', // *GET, POST, PUT, DELETE, etc.
             headers: {
             'Content-Type': 'application/json'
-            }
+            },
+            body: JSON.stringify({
+                id: "MIudq7uklIFIXW6qVLL"
+            })
         })
         .then((response) => {
             return response.json();

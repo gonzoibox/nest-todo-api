@@ -10,7 +10,7 @@ import { Crud, CrudController } from '@nestjsx/crud';
   },
 })
 @ApiTags('todo')
-@Controller('rest/todo')
+@Controller('todo')
 export class TodoController implements CrudController<Todo>{
   constructor(public service: TodoService) {}
 }
