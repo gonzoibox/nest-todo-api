@@ -1,7 +1,7 @@
 {
-  "name": "nest-todo-api",
+  "name": "todo-backend",
   "version": "0.0.1",
-  "description": "todo-app",
+  "description": "nest-jss",
   "author": "anton davidovich",
   "private": true,
   "license": "MIT",
